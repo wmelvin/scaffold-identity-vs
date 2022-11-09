@@ -15,6 +15,6 @@ namespace demo_webapp.Data
         }
 
         protected override void OnConfiguring(DbContextOptionsBuilder options)
-            => options.UseSqlite($"Data_Source={DbPath}");
+            => options.UseSqlite($"Data Source={DbPath}");
     }
 }
