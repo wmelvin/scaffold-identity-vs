@@ -1,8 +1,9 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 
 namespace demo_webapp.Data
 {
-    public class UploadContext : DbContext
+    public class UploadContext : IdentityDbContext
     {
         public DbSet<Upload> Uploads => Set<Upload>();
 
