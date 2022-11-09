@@ -1,0 +1,2 @@
+# Ignore db schema export backup copies.
+export-db-schema-20*.txt
